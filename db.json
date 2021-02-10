@@ -1,0 +1,77 @@
+{
+    "img": "https://images6.alphacoders.com/101/thumb-1920-1011336.png",
+    "title": "Quiz Anime Bleach #AluraQuiz",
+    "description": "Teste seus conhecimentos sobre o mundo dos Shinigamis",
+    "questions": [
+      {
+        "image": "",
+        "title": "1° Pergunta",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "Alt 1",
+          "Alt 2",
+          "Alt 3"
+        ]
+      },
+      {
+        "image": "",
+        "title": "2° Pergunta",
+        "description": "",
+        "answer": 0,
+        "alternatives": [
+          "Alt 1",
+          "Alt 2",
+          "Alt 3"
+        ]
+      },
+      {
+        "image": "",
+        "title": "3° Pergunta",
+        "description":"",
+        "answer": 1,
+        "alternatives": [
+          "Alt 1",
+          "Alt 2",
+          "Alt 3"
+        ]
+      },
+      {
+        "image": "",
+        "title": "4° Pergunta",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "Alt 1",
+          "Alt 2",
+          "Alt 3"
+        ]
+      },
+      {
+        "image": "",
+        "title": "5° Pergunta",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+          "Alt 1",
+          "Alt 2",
+          "Alt 3"
+        ]
+      }
+    ],
+    "external": [
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#FF6F00",
+        "secondary": "#212121",
+        "mainImg": "#FF6F00",
+        "contrastText": "#FFFFFF",
+        "wrong": "#b71c1c",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }
