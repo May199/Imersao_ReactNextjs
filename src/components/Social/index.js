@@ -21,7 +21,7 @@ Social.Github = styled.div`
     background-position: center;
     background-size: cover;
     position: absolute;
-    margin-top:25%;
+    margin-top:40%;
     left:6px;
     
 `
@@ -33,7 +33,7 @@ Social.Instagram = styled.div`
     background-position: center;
     background-size: cover;
     position: absolute;
-    margin-top:140%;
+    margin-top:150%;
     left:20px;
 `
 console.log(db.instagram);

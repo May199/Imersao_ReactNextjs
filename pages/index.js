@@ -4,6 +4,7 @@ import QuizBackground from '../src/components/QuizBackground'
 import FooterWrapper from '../src/components/FooterWrapper'
 import Social from '../src/components/Social'
 
+
 export const QuizContainer = styled.div` 
   width:100%;
   max-width:350px;
@@ -18,10 +19,12 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground>
+
       <Social>
-        <Social.Github/>
-        <Social.Instagram/>
+        <a href="https://github.com/May199"><Social.Github/></a>
+        <a href="https://www.instagram.com/manu_blood_/"><Social.Instagram/></a>
       </Social>
+
       <QuizContainer>
         <Cards>
           <Cards.Header>
