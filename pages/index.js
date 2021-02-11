@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Cards from '../src/components/Cards'
 import QuizBackground from '../src/components/QuizBackground'
 import FooterWrapper from '../src/components/FooterWrapper'
+import Social from '../src/components/Social'
 
 export const QuizContainer = styled.div` 
   width:100%;
@@ -17,8 +18,11 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground>
+      <Social>
+        <Social.Github/>
+        <Social.Instagram/>
+      </Social>
       <QuizContainer>
-
         <Cards>
           <Cards.Header>
             <h1>Titulo do Quiz</h1>
