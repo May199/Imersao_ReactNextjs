@@ -10,7 +10,15 @@ const Social = styled.div`
     right:2px;
     margin-top: 14%;
     border-radius: 4px;
-    
+    @media screen and (max-width: 500px){
+        height:38px;
+        width:140px;
+        margin-top:-5%;
+        right:-259px;
+    }
+    @media screen and (max-width: 731px){
+        right:-269px;
+    }
 `
 Social.Github = styled.div`
     background-image: url(${db.github});
@@ -23,6 +31,12 @@ Social.Github = styled.div`
     position: absolute;
     margin-top:40%;
     left:6px;
+
+    @media screen and (max-width: 500px){
+        height:35px;
+        width:35px;
+        left:40px;
+    }
     
 `
 Social.Instagram = styled.div`
@@ -35,6 +49,12 @@ Social.Instagram = styled.div`
     position: absolute;
     margin-top:150%;
     left:20px;
+
+    @media screen and (max-width: 500px){
+        height:35px;
+        width:35px;
+        left:95px;
+        margin-top:-24%;
+    }
 `
-console.log(db.instagram);
 export default Social;

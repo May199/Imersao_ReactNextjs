@@ -67,7 +67,7 @@
       "colors": {
         "primary": "#FF6F00",
         "secondary": "#212121",
-        "mainImg": "#FF6F00",
+        "mainImg": "FF6F00",
         "contrastText": "#FFFFFF",
         "wrong": "#b71c1c",
         "success": "#4CAF50"

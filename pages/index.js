@@ -11,15 +11,14 @@ export const QuizContainer = styled.div`
   padding-top: 45px;
   margin: auto 10%; 
   @media screen and (max-width:500px){
-    margin:auto;
-    padding:15px;
+    margin: 9%;
+    margin-top:30px;
   }
 `;
 
 export default function Home() {
   return (
     <QuizBackground>
-
       <Social>
         <a href="https://github.com/May199"><Social.Github/></a>
         <a href="https://www.instagram.com/manu_blood_/"><Social.Instagram/></a>

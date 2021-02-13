@@ -4,6 +4,7 @@ import Head from 'next/head'
 
 const GlobalStyle = createGlobalStyle`
   body {
+    background-color:#212121;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
