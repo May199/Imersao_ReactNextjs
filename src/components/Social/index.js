@@ -15,6 +15,7 @@ const Social = styled.div`
         width:120px;
         margin-top:-5%;
         right:-288px;
+        opacity:36%;
     }
     @media screen and (max-width: 731px){
         right:-288px;
