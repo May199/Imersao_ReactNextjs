@@ -60,8 +60,11 @@
       }
     ],
     "external": [
-      "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+      "https://python-quiz.ermessonlima.vercel.app/",
+      "https://aluraquiz.alec-nk.vercel.app/",
+      "https://quiz-react.brenoha.vercel.app/",
+      "https://aluraquiz.edlanioj.vercel.app/"
+
     ],
     "theme": {
       "colors": {

@@ -12,12 +12,13 @@ const Social = styled.div`
     border-radius: 4px;
     @media screen and (max-width: 500px){
         height:38px;
-        width:140px;
+        width:120px;
         margin-top:-5%;
-        right:-259px;
+        right:-288px;
     }
     @media screen and (max-width: 731px){
-        right:-269px;
+        right:-288px;
+        opacity:36%;
     }
 `
 Social.Github = styled.div`
@@ -35,7 +36,7 @@ Social.Github = styled.div`
     @media screen and (max-width: 500px){
         height:35px;
         width:35px;
-        left:40px;
+        left:36px;
     }
     
 `
@@ -53,8 +54,8 @@ Social.Instagram = styled.div`
     @media screen and (max-width: 500px){
         height:35px;
         width:35px;
-        left:95px;
-        margin-top:-24%;
+        left:80px;
+        margin-top:-29%;
     }
 `
 export default Social;
