@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { useRouter } from 'next/router'
 import NextLink from 'next/link';
+
 import Cards from '../src/components/Cards'
 import QuizBackground from '../src/components/QuizBackground'
 import FooterWrapper from '../src/components/FooterWrapper'
@@ -17,18 +18,18 @@ export const QuizContainer = styled.div`
     margin-top:30px;
   }
 `;
-//Copiado - Estudar
-export function Link({ children, href, ...props }) {
+
+export function Link({ children, href, ...props }){
   return (
     <NextLink href={href} passHref>
-      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
       <a {...props}>
         {children}
       </a>
     </NextLink>
   );
 }
-export default function Home() {
+
+export default function Home(){
   const router = useRouter();
   const [nome, setNome] = React.useState(''); 
 
@@ -63,30 +64,24 @@ export default function Home() {
             <h1>Quiz da Galera</h1>
           </Cards.Header>
 
-          {/*Copiado - Estudar*/}
           <Cards.Content>
             <p>Outros quizzes desenvolvidos no #AluraQuiz</p>
 
-            <ul>
-              {db.external.map((linkExterno) => {
-                const [projectName, githubUser] = linkExterno
-                  .replace(/\//g, '')
-                  .replace('https:', '')
-                  .replace('.vercel.app', '')
-                  .split('.');
+            <a href="https://python-quiz.ermessonlima.vercel.app/">
+              <Cards.Topic>ermessonlima/python-quiz</Cards.Topic>
+            </a>
 
-                return (
-                  <li key={linkExterno}>
-                    <Cards.Topic
-                      as={Link}
-                      href={`/quiz/${projectName}___${githubUser}`}
-                    >
-                      {`${githubUser}/${projectName}`}
-                    </Cards.Topic>
-                  </li>
-                );
-              })}
-            </ul>
+            <a href="https://aluraquiz.alec-nk.vercel.app/">
+              <Cards.Topic>alec-nk/aluraquiz</Cards.Topic>
+            </a>
+
+            <a href="https://quiz-react.brenoha.vercel.app/">
+              <Cards.Topic>brenoha/quiz-react</Cards.Topic>
+            </a>
+            
+            <a href="https://aluraquiz.edlanioj.vercel.app/">
+              <Cards.Topic>edlanioj/aluraquiz</Cards.Topic>
+            </a>
           </Cards.Content>
         </Cards>
 

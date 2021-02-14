@@ -7,6 +7,7 @@ const QuizBackground = styled.div`
   background-position: center;
   background-image: url(${db.img});
   flex: 1;
+  
   @media screen and (max-width: 500px) {
     background-image:none;
     &:after {
@@ -28,6 +29,7 @@ const QuizBackground = styled.div`
       z-index: 10;
     }
   }
+
   @media screen and (max-width: 731px){
     &:after {
       content: "";

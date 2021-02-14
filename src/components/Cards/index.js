@@ -22,7 +22,7 @@ const Cards = styled.div`
 `;
 
 Cards.Content = styled.div`
-  padding: 24px 32px 32px 32px; // verificar depois pq dá pra colocar assim. 
+  padding: 24px 32px 32px 32px; 
   
   & > *:first-child{
     margin-top:0;
@@ -40,6 +40,7 @@ Cards.Content = styled.div`
     border-radius: 4px;
     width:97%;
     height:35px;
+    color: ${({ theme }) => theme.colors.contrastText};
   }
   button {
     margin-top:5%;
@@ -54,29 +55,25 @@ Cards.Header = styled.header`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 18px 32px; // verificar depois pq dá pra colocar assim. 
-  background-color:${({theme}) => theme.colors.primary}; 
-  // É basicamente um return para retornar o que tá pedindo =>: function sem parametro, só retorno.  
+  padding: 18px 32px;
+  background-color:${({theme}) => theme.colors.primary};  
 
   *{
     margin:0;
   }
 `;
-Cards.Topic = styled.a`
+
+Cards.Topic = styled.div`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  background-color: ${({ theme }) => `${theme.colors.primary}30`};
   padding: 10px 15px;
   margin-bottom: 8px;
-  cursor: pointer;
-  border-radius: ${({ theme }) => theme.borderRadius};
+  border-radius: 4px;
   transition: .3s;
   display: block;
-  
-  &:hover,
-  &:focus {
-    opacity: .5;
-  }
+
 `;
+
 export default Cards;

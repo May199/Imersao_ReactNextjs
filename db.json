@@ -59,23 +59,14 @@
         ]
       }
     ],
-    "external": [
-      "https://python-quiz.ermessonlima.vercel.app/",
-      "https://aluraquiz.alec-nk.vercel.app/",
-      "https://quiz-react.brenoha.vercel.app/",
-      "https://aluraquiz.edlanioj.vercel.app/"
 
-    ],
     "theme": {
       "colors": {
         "primary": "#FF6F00",
         "secondary": "#212121",
         "mainImg": "FF6F00",
-        "contrastText": "#FFFFFF",
-        "wrong": "#b71c1c",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+        "contrastText": "#FFFFFF"
+      }
     },
     "github": "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
     "instagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_new.svg/2000px-Instagram_new.svg.png" 
