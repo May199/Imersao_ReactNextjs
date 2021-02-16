@@ -1,6 +1,5 @@
 import Cards from '../Cards'
 import QuizContainer from '../QuizContainer'
-import LoadingCard from '../LoadingCard'
 
 {/*Usando ({}) é uma desconstrução do objeto criado em uma função, sendo assim quando uso o mesmo
 nome da váriavel em outro componente e passar isso pro componente, o valor da variavel vai ser sustituído.  
