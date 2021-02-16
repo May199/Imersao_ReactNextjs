@@ -2,60 +2,62 @@
     "img": "https://images6.alphacoders.com/101/thumb-1920-1011336.png",
     "title": "Quiz Anime Bleach #AluraQuiz",
     "description": "Teste seus conhecimentos sobre o mundo dos Shinigamis",
+
     "questions": [
       {
-        "image": "",
-        "title": "1° Pergunta",
+        "image": "https://blog.topolyan.com/wp-content/uploads/2019/07/Ichigo_Kurosaki.gif",
+        "title": "Qual a origem dos poderes do Ichigo? ",
         "description": "",
-        "answer": 1,
+        "answer": 3,
         "alternatives": [
-          "Alt 1",
-          "Alt 2",
-          "Alt 3"
+          "São poderes da Rukia quando ela transferiu p/ Ichigo",
+          "Ichigo possuía poderes adormecidos originados de sua mãe e seu pai",
+          "A origem de seus poderes vem do Hollow criado pelo Aizen que foi selado na mãe do Ichigo e passado para Ichigo no seu nascimento. Além dos poderes herdados pelo seus pais"
         ]
       },
       {
-        "image": "",
-        "title": "2° Pergunta",
-        "description": "",
-        "answer": 0,
+        "image": "http://pa1.narvii.com/6024/a62611df8d22a15f44239e82b5c2eb29846b7a01_00.gif",
+        "title": "De qual família o Isshin Kurosaki era antes de se tornar humano?",
+        "description": "Dica, Ichigo foi ajudado por membros dessa família quando foi salvar Rukia.",
+        "answer": 2,
         "alternatives": [
-          "Alt 1",
-          "Alt 2",
-          "Alt 3"
+          "Kuchiki",
+          "Shiba",
+          "Tsunayashiro",
+          "Shihouin"
         ]
       },
       {
-        "image": "",
-        "title": "3° Pergunta",
+        "image": "https://thumbs.gfycat.com/ConventionalOrderlyDrafthorse-small.gif",
+        "title": "Quem criou as Kaizo Konpaku (almas modificadas), como o KON?",
         "description":"",
         "answer": 1,
         "alternatives": [
-          "Alt 1",
-          "Alt 2",
-          "Alt 3"
+          "Ōko Yushima",
+          "Urahara Kisuke",
+          "Kurotsuchi Mayuri"
         ]
       },
       {
-        "image": "",
-        "title": "4° Pergunta",
+        "image": "https://data.whicdn.com/images/328457077/original.gif",
+        "title": "Yoruichi possui Zanpakutou?",
         "description": "",
         "answer": 1,
         "alternatives": [
-          "Alt 1",
-          "Alt 2",
-          "Alt 3"
+          "Sim, porém prefere lutas corpo a corpo e não a utiliza. ",
+          "Não, possui apenas habilidades de lutas corpo a corpo. ",
+          "Sim, porém quando fugiu da Soul Society a perdeu. "
         ]
       },
       {
-        "image": "",
-        "title": "5° Pergunta",
-        "description": "",
-        "answer": 1,
+        "image": "https://media.comicbook.com/2019/02/bleach-theory-orihime-1160158-1280x0.jpeg",
+        "title": "Qual a origem dos poderes da Orihime e Chad?",
+        "description": "Novel Hisagi",
+        "answer": 3,
         "alternatives": [
-          "Alt 1",
-          "Alt 2",
-          "Alt 3"
+          "Possuem poderes adormecidos de seus antepassados. ",
+          "Eles são Fullbringer e seus poderes foram ativados pelo Ichigo.",
+          "Eles são Fullbringer e seus poderes foram ativados por eles mesmo."
         ]
       }
     ],
@@ -68,6 +70,7 @@
         "contrastText": "#FFFFFF"
       }
     },
+
     "github": "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
     "instagram": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_new.svg/2000px-Instagram_new.svg.png" 
   }

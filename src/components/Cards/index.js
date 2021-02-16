@@ -48,6 +48,10 @@ Cards.Content = styled.div`
     border-radius: 4px;
     width:99%;
     height:35px;
+    color: ${({ theme }) => theme.colors.contrastText};
+  }
+  button:disabled{
+    opacity:40%;
   }
 `;
 
@@ -73,6 +77,12 @@ Cards.Topic = styled.div`
   border-radius: 4px;
   transition: .3s;
   display: block;
+  cursor: pointer;
+
+  &:hover, 
+  &:focus{
+    opacity:.5;
+  }
 
 `;
 

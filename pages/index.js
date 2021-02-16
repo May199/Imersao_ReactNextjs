@@ -1,33 +1,9 @@
-import styled from 'styled-components'
 import { useRouter } from 'next/router'
-import NextLink from 'next/link';
-
 import Cards from '../src/components/Cards'
 import QuizBackground from '../src/components/QuizBackground'
 import FooterWrapper from '../src/components/FooterWrapper'
 import Social from '../src/components/Social'
-import db from '../db.json'
-
-export const QuizContainer = styled.div` 
-  width:100%;
-  max-width:350px;
-  padding-top: 45px;
-  margin: auto 10%; 
-  @media screen and (max-width:500px){
-    margin: 9%;
-    margin-top:30px;
-  }
-`;
-
-export function Link({ children, href, ...props }){
-  return (
-    <NextLink href={href} passHref>
-      <a {...props}>
-        {children}
-      </a>
-    </NextLink>
-  );
-}
+import QuizContainer from '../src/components/QuizContainer'
 
 export default function Home(){
   const router = useRouter();
@@ -47,14 +23,13 @@ export default function Home(){
           </Cards.Header>
 
           <Cards.Content> 
-            {/*Ao clicar no butão jogar, a função sem parametros redireciona para a página quiz*/}
             <p>Teste seus conhecimentos sobre o anime Bleach</p> 
             <form onSubmit={function (event){ event.preventDefault(); router.push(`/quiz?name=${nome}`);}}> 
               <input 
                 onChange={function (event){setNome(event.target.value)}} 
                 placeholder="Diz seu nome de jogador :)"
               />  
-              <button type="submit" disabled={nome.length === 0}>JOGAR {nome}</button>
+              <button type="submit" disabled={nome.length === 0}>JOGAR {nome.toUpperCase()}</button>
             </form> 
           </Cards.Content>
         </Cards>
@@ -70,15 +45,12 @@ export default function Home(){
             <a href="https://python-quiz.ermessonlima.vercel.app/">
               <Cards.Topic>ermessonlima/python-quiz</Cards.Topic>
             </a>
-
             <a href="https://aluraquiz.alec-nk.vercel.app/">
               <Cards.Topic>alec-nk/aluraquiz</Cards.Topic>
             </a>
-
             <a href="https://quiz-react.brenoha.vercel.app/">
               <Cards.Topic>brenoha/quiz-react</Cards.Topic>
             </a>
-            
             <a href="https://aluraquiz.edlanioj.vercel.app/">
               <Cards.Topic>edlanioj/aluraquiz</Cards.Topic>
             </a>
