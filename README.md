@@ -5,7 +5,7 @@
 
 ## Layout Home
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/May199/Imersao_ReactNextjs/blob/master/docs/home.png?raw=true)
 
 ## How to use
 
