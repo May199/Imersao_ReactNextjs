@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Cards = styled.div`
+  font-family: 'Roboto', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid #4d4d4d;

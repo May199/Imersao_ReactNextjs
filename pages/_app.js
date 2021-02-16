@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }) {
         <title>Quiz Anime Bleach #AluraQuiz</title>
         <link rel="icon" type="image/png" href="https://img.pngio.com/kon-png-13-png-image-kon-png-997_946.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;500&display=swap" rel="stylesheet" />
       </Head>
       
       <ThemeProvider theme={theme}>
